@@ -2,7 +2,7 @@ import urllib3
 from .htmlNfce import run
 from .StateInvalidError import StateInvalidError
 
-listOfStatesAvailableQrCode = ['pr.gov.br/nfce/qrcode']
+listOfStatesAvailableQrCode = ['mg.gov.br/nfce/qrcode']
 
 def json_from_qrcode_link(link):
     if (link is None or len(link.strip()) == 0):
